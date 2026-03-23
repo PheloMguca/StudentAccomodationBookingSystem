@@ -40,26 +40,6 @@ public class Room {
         return roomStatus;
     }
 
-    public void setRoomId(String roomId) {
-        this.roomId = roomId;
-    }
-
-    public void setFloor(String floor) {
-        this.floor = floor;
-    }
-
-    public void setRoomNumber(String roomNumber) {
-        this.roomNumber = roomNumber;
-    }
-
-    public void setPricePerMonth(double pricePerMonth) {
-        this.pricePerMonth = pricePerMonth;
-    }
-
-    public void setRoomStatus(RoomStatus roomStatus) {
-        this.roomStatus = roomStatus;
-    }
-
     @Override
     public String toString() {
         return "Room{" +
