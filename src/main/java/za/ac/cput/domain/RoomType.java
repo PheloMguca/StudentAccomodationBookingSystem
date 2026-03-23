@@ -39,25 +39,6 @@ public class RoomType {
         return price;
     }
 
-    public void setLength(double length) {
-        this.length = length;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public void setCapacity(double capacity) {
-        this.capacity = capacity;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
 
     @Override
     public String toString() {
