@@ -7,11 +7,11 @@ public class Room {
     private double pricePerMonth;
     private RoomStatus roomStatus;
 
-    private Room() {
+    public Room() {
 
     }
 
-    private Room(Builder builder) {
+    public Room(Builder builder) {
         this.roomId = builder.roomId;
         this.floor = builder.floor;
         this.roomNumber = builder.roomNumber;

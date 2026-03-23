@@ -7,11 +7,11 @@ public class RoomType {
     private double capacity;
     private double price;
 
-    private RoomType() {
+    public RoomType() {
 
     }
 
-    private RoomType(Builder builder) {
+    public RoomType(Builder builder) {
         this.length = builder.length;
         this.width = builder.width;
         this.height = builder.height;
